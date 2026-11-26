@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+sa
+sa2
+sa3
+adj
+.DS_Store
+Claude outputs/
+*.tar.gz
