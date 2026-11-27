@@ -1,0 +1,17 @@
+date: 2026-11-27 (UTC)
+CPU(s): 2
+Model name: Intel(R) Xeon(R) Processor @ 2.30GHz
+CPU family: 6
+Model: 173
+Thread(s) per core: 1
+Stepping: 1
+Hypervisor vendor: KVM (a cloud virtual machine with 2 virtual CPUs)
+L1d cache: 96 KiB (2 instances)
+L2 cache: 4 MiB (2 instances)
+L3 cache: 504 MiB (1 instance)
+relevant flags: avx2 bmi2 avx512f avx512bw avx512vl avx512vbmi gfni amx_tile 
+compiler: gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, flags -O3
+nasm: NASM version 2.16.01
+Intel ISA-L: v2.32.1, commit af6a939, built with make -f Makefile.unx
+klauspost/reedsolomon: v1.14.2 (cpuid v2.4.2), go1.24.7, WithMaxGoroutines(1)
+method: one thread pinned to one core; best time over three interleaved rounds per figure (bench.c); klauspost: best of two runs (interop/kp/main.go bench)

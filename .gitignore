@@ -7,3 +7,11 @@ adj
 .DS_Store
 Claude outputs/
 *.tar.gz
+lib/*.o
+lib/*.a
+lib/rsr
+lib/opt
+lib/test_rsr
+lib/bench
+lib/interop_file
+lib/interop_isal
