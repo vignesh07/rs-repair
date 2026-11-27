@@ -5,6 +5,10 @@ on the evaluation points **0, 1, …, n−1** (polynomial 0x11D). These are the 
 the Backblaze / klauspost Vandermonde code, so every scheme here applies to data already encoded with those libraries:
 only the repair procedure changes.
 
+**Two things are here.** [`lib/`](lib/) is a working C library that rebuilds a lost chunk with 25–44% less download
+than normal repair, at the speed of Intel ISA-L, tested on stripes written by ISA-L, klauspost/reedsolomon, Backblaze
+JavaReedSolomon and Hadoop. The rest of this page is the repair schemes and proofs behind it.
+
 Status: computational results, 26 Nov 2026. Unrefereed. Every scheme is machine-checked by `check_all.py`.
 
 ## Summary
@@ -21,6 +25,10 @@ Status: computational results, 26 Nov 2026. Unrefereed. Every scheme is machine-
    compares best-known schemes. Section "Both point sets under the same search".
 5. **Why some helpers need 3 bits instead of 4** in the four-parity subspace construction, with an exact criterion and
    a 56-bit RS(16,12) that it produces.
+6. **A working library**: [`lib/`](lib/) turns the schemes for the points 0..n−1 into code. Rebuilding a
+   chunk downloads 25–44% less than normal repair. The rebuild is 1.1–2.2× faster than Intel ISA-L's own
+   reconstruction on chunks of 1 MiB and up and within 0.7–1.8× of it on smaller buffers, and is tested byte for byte
+   on stripes written by ISA-L, klauspost/reedsolomon, Backblaze JavaReedSolomon and Hadoop's RS coder. Costs and limits are in [`lib/README.md`](lib/README.md).
 
 ## Results (bits downloaded to rebuild one lost byte; worst node unless stated)
 

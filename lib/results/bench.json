@@ -1,0 +1,1366 @@
+[
+ {
+  "n": 14,
+  "k": 10,
+  "chunk_bytes": 4096,
+  "isal_MBps": 10881,
+  "isal_avx2_MBps": 3891,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 10417,
+   "rebuild_MBps_avg": 10742,
+   "rebuild_MBps_fastest": 11290,
+   "helper_MBps": 49688
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 4695,
+   "rebuild_MBps_avg": 4801,
+   "rebuild_MBps_fastest": 4914,
+   "helper_MBps": 12798
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 933,
+   "rebuild_MBps_avg": 933,
+   "rebuild_MBps_fastest": 933,
+   "helper_MBps": 1936
+  },
+  "download_vs_normal": {
+   "best": 0.6125,
+   "avg": 0.6179,
+   "worst": 0.625
+  },
+  "klauspost_MBps": 9621
+ },
+ {
+  "n": 14,
+  "k": 10,
+  "chunk_bytes": 65536,
+  "isal_MBps": 8243,
+  "isal_avx2_MBps": 3899,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 11713,
+   "rebuild_MBps_avg": 12122,
+   "rebuild_MBps_fastest": 12831,
+   "helper_MBps": 70924
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 5078,
+   "rebuild_MBps_avg": 5170,
+   "rebuild_MBps_fastest": 5238,
+   "helper_MBps": 12933
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 949,
+   "rebuild_MBps_avg": 949,
+   "rebuild_MBps_fastest": 949,
+   "helper_MBps": 1950
+  },
+  "download_vs_normal": {
+   "best": 0.6125,
+   "avg": 0.6179,
+   "worst": 0.625
+  },
+  "klauspost_MBps": 12098
+ },
+ {
+  "n": 14,
+  "k": 10,
+  "chunk_bytes": 1048576,
+  "isal_MBps": 2540,
+  "isal_avx2_MBps": 2314,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 3709,
+   "rebuild_MBps_avg": 3783,
+   "rebuild_MBps_fastest": 3855,
+   "helper_MBps": 58977
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 2932,
+   "rebuild_MBps_avg": 3183,
+   "rebuild_MBps_fastest": 3288,
+   "helper_MBps": 12761
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 886,
+   "rebuild_MBps_avg": 886,
+   "rebuild_MBps_fastest": 886,
+   "helper_MBps": 1948
+  },
+  "download_vs_normal": {
+   "best": 0.6125,
+   "avg": 0.6179,
+   "worst": 0.625
+  },
+  "klauspost_MBps": 2323
+ },
+ {
+  "n": 14,
+  "k": 10,
+  "chunk_bytes": 16777216,
+  "isal_MBps": 2003,
+  "isal_avx2_MBps": 1921,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 3586,
+   "rebuild_MBps_avg": 3669,
+   "rebuild_MBps_fastest": 3737,
+   "helper_MBps": 19122
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 3187,
+   "rebuild_MBps_avg": 3308,
+   "rebuild_MBps_fastest": 3432,
+   "helper_MBps": 11169
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 818,
+   "rebuild_MBps_avg": 818,
+   "rebuild_MBps_fastest": 818,
+   "helper_MBps": 1846
+  },
+  "download_vs_normal": {
+   "best": 0.6125,
+   "avg": 0.6179,
+   "worst": 0.625
+  },
+  "klauspost_MBps": 1550
+ },
+ {
+  "n": 9,
+  "k": 6,
+  "chunk_bytes": 4096,
+  "isal_MBps": 22321,
+  "isal_avx2_MBps": 6865,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 16482,
+   "rebuild_MBps_avg": 16765,
+   "rebuild_MBps_fastest": 17208,
+   "helper_MBps": 49525
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 5813,
+   "rebuild_MBps_avg": 5886,
+   "rebuild_MBps_fastest": 5982,
+   "helper_MBps": 12169
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1159,
+   "rebuild_MBps_avg": 1159,
+   "rebuild_MBps_fastest": 1159,
+   "helper_MBps": 1885
+  },
+  "download_vs_normal": {
+   "best": 0.6458,
+   "avg": 0.669,
+   "worst": 0.6875
+  },
+  "klauspost_MBps": 14741
+ },
+ {
+  "n": 9,
+  "k": 6,
+  "chunk_bytes": 65536,
+  "isal_MBps": 15185,
+  "isal_avx2_MBps": 7762,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 17821,
+   "rebuild_MBps_avg": 18080,
+   "rebuild_MBps_fastest": 18458,
+   "helper_MBps": 70452
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 6189,
+   "rebuild_MBps_avg": 6279,
+   "rebuild_MBps_fastest": 6352,
+   "helper_MBps": 12359
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1165,
+   "rebuild_MBps_avg": 1165,
+   "rebuild_MBps_fastest": 1165,
+   "helper_MBps": 1882
+  },
+  "download_vs_normal": {
+   "best": 0.6458,
+   "avg": 0.669,
+   "worst": 0.6875
+  },
+  "klauspost_MBps": 19642
+ },
+ {
+  "n": 9,
+  "k": 6,
+  "chunk_bytes": 1048576,
+  "isal_MBps": 3974,
+  "isal_avx2_MBps": 3690,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 5158,
+   "rebuild_MBps_avg": 5352,
+   "rebuild_MBps_fastest": 5650,
+   "helper_MBps": 55810
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 4368,
+   "rebuild_MBps_avg": 4535,
+   "rebuild_MBps_fastest": 4768,
+   "helper_MBps": 12329
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1152,
+   "rebuild_MBps_avg": 1152,
+   "rebuild_MBps_fastest": 1152,
+   "helper_MBps": 1895
+  },
+  "download_vs_normal": {
+   "best": 0.6458,
+   "avg": 0.669,
+   "worst": 0.6875
+  },
+  "klauspost_MBps": 3563
+ },
+ {
+  "n": 9,
+  "k": 6,
+  "chunk_bytes": 16777216,
+  "isal_MBps": 3341,
+  "isal_avx2_MBps": 2968,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 4884,
+   "rebuild_MBps_avg": 5016,
+   "rebuild_MBps_fastest": 5206,
+   "helper_MBps": 17551
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 3819,
+   "rebuild_MBps_avg": 4073,
+   "rebuild_MBps_fastest": 4264,
+   "helper_MBps": 9176
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1056,
+   "rebuild_MBps_avg": 1056,
+   "rebuild_MBps_fastest": 1056,
+   "helper_MBps": 1764
+  },
+  "download_vs_normal": {
+   "best": 0.6458,
+   "avg": 0.669,
+   "worst": 0.6875
+  },
+  "klauspost_MBps": 3117
+ },
+ {
+  "n": 5,
+  "k": 3,
+  "chunk_bytes": 4096,
+  "isal_MBps": 36169,
+  "isal_avx2_MBps": 11591,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 25202,
+   "rebuild_MBps_avg": 25699,
+   "rebuild_MBps_fastest": 26216,
+   "helper_MBps": 48676
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 6817,
+   "rebuild_MBps_avg": 6863,
+   "rebuild_MBps_fastest": 6902,
+   "helper_MBps": 11322
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1426,
+   "rebuild_MBps_avg": 1426,
+   "rebuild_MBps_fastest": 1426,
+   "helper_MBps": 1823
+  },
+  "download_vs_normal": {
+   "best": 0.7083,
+   "avg": 0.7167,
+   "worst": 0.75
+  },
+  "klauspost_MBps": 19434
+ },
+ {
+  "n": 5,
+  "k": 3,
+  "chunk_bytes": 65536,
+  "isal_MBps": 28789,
+  "isal_avx2_MBps": 13161,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 24733,
+   "rebuild_MBps_avg": 25220,
+   "rebuild_MBps_fastest": 25699,
+   "helper_MBps": 66952
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 6938,
+   "rebuild_MBps_avg": 7198,
+   "rebuild_MBps_fastest": 7425,
+   "helper_MBps": 11983
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1364,
+   "rebuild_MBps_avg": 1364,
+   "rebuild_MBps_fastest": 1364,
+   "helper_MBps": 1793
+  },
+  "download_vs_normal": {
+   "best": 0.7083,
+   "avg": 0.7167,
+   "worst": 0.75
+  },
+  "klauspost_MBps": 31550
+ },
+ {
+  "n": 5,
+  "k": 3,
+  "chunk_bytes": 1048576,
+  "isal_MBps": 6396,
+  "isal_avx2_MBps": 5681,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 8007,
+   "rebuild_MBps_avg": 8386,
+   "rebuild_MBps_fastest": 8603,
+   "helper_MBps": 58683
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 6581,
+   "rebuild_MBps_avg": 6678,
+   "rebuild_MBps_fastest": 6746,
+   "helper_MBps": 11356
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1381,
+   "rebuild_MBps_avg": 1381,
+   "rebuild_MBps_fastest": 1381,
+   "helper_MBps": 1771
+  },
+  "download_vs_normal": {
+   "best": 0.7083,
+   "avg": 0.7167,
+   "worst": 0.75
+  },
+  "klauspost_MBps": 6504
+ },
+ {
+  "n": 5,
+  "k": 3,
+  "chunk_bytes": 16777216,
+  "isal_MBps": 6027,
+  "isal_avx2_MBps": 5583,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 7183,
+   "rebuild_MBps_avg": 7389,
+   "rebuild_MBps_fastest": 7565,
+   "helper_MBps": 16033
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 6021,
+   "rebuild_MBps_avg": 6095,
+   "rebuild_MBps_fastest": 6204,
+   "helper_MBps": 8860
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1306,
+   "rebuild_MBps_avg": 1306,
+   "rebuild_MBps_fastest": 1306,
+   "helper_MBps": 1659
+  },
+  "download_vs_normal": {
+   "best": 0.7083,
+   "avg": 0.7167,
+   "worst": 0.75
+  },
+  "klauspost_MBps": 5898
+ },
+ {
+  "n": 12,
+  "k": 8,
+  "chunk_bytes": 4096,
+  "isal_MBps": 16693,
+  "isal_avx2_MBps": 4673,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 11523,
+   "rebuild_MBps_avg": 11801,
+   "rebuild_MBps_fastest": 12245,
+   "helper_MBps": 48171
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 5008,
+   "rebuild_MBps_avg": 5131,
+   "rebuild_MBps_fastest": 5236,
+   "helper_MBps": 12118
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 993,
+   "rebuild_MBps_avg": 993,
+   "rebuild_MBps_fastest": 993,
+   "helper_MBps": 1904
+  },
+  "download_vs_normal": {
+   "best": 0.6406,
+   "avg": 0.651,
+   "worst": 0.6562
+  },
+  "klauspost_MBps": 11097
+ },
+ {
+  "n": 12,
+  "k": 8,
+  "chunk_bytes": 65536,
+  "isal_MBps": 10950,
+  "isal_avx2_MBps": 4760,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 12959,
+   "rebuild_MBps_avg": 13561,
+   "rebuild_MBps_fastest": 14365,
+   "helper_MBps": 69599
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 5362,
+   "rebuild_MBps_avg": 5478,
+   "rebuild_MBps_fastest": 5648,
+   "helper_MBps": 12739
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1028,
+   "rebuild_MBps_avg": 1028,
+   "rebuild_MBps_fastest": 1028,
+   "helper_MBps": 1895
+  },
+  "download_vs_normal": {
+   "best": 0.6406,
+   "avg": 0.651,
+   "worst": 0.6562
+  },
+  "klauspost_MBps": 14535
+ },
+ {
+  "n": 12,
+  "k": 8,
+  "chunk_bytes": 1048576,
+  "isal_MBps": 2831,
+  "isal_avx2_MBps": 2655,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 3977,
+   "rebuild_MBps_avg": 4045,
+   "rebuild_MBps_fastest": 4098,
+   "helper_MBps": 60860
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 3245,
+   "rebuild_MBps_avg": 3347,
+   "rebuild_MBps_fastest": 3514,
+   "helper_MBps": 12444
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 954,
+   "rebuild_MBps_avg": 954,
+   "rebuild_MBps_fastest": 954,
+   "helper_MBps": 1950
+  },
+  "download_vs_normal": {
+   "best": 0.6406,
+   "avg": 0.651,
+   "worst": 0.6562
+  },
+  "klauspost_MBps": 2778
+ },
+ {
+  "n": 12,
+  "k": 8,
+  "chunk_bytes": 16777216,
+  "isal_MBps": 1853,
+  "isal_avx2_MBps": 1723,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 3312,
+   "rebuild_MBps_avg": 3425,
+   "rebuild_MBps_fastest": 3506,
+   "helper_MBps": 16440
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 2382,
+   "rebuild_MBps_avg": 2558,
+   "rebuild_MBps_fastest": 2680,
+   "helper_MBps": 10419
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 829,
+   "rebuild_MBps_avg": 829,
+   "rebuild_MBps_fastest": 829,
+   "helper_MBps": 1640
+  },
+  "download_vs_normal": {
+   "best": 0.6406,
+   "avg": 0.651,
+   "worst": 0.6562
+  },
+  "klauspost_MBps": 2057
+ },
+ {
+  "n": 16,
+  "k": 12,
+  "chunk_bytes": 4096,
+  "isal_MBps": 7674,
+  "isal_avx2_MBps": 3007,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 8959,
+   "rebuild_MBps_avg": 9135,
+   "rebuild_MBps_fastest": 9345,
+   "helper_MBps": 48067
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 4173,
+   "rebuild_MBps_avg": 4355,
+   "rebuild_MBps_fastest": 4505,
+   "helper_MBps": 12248
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 844,
+   "rebuild_MBps_avg": 844,
+   "rebuild_MBps_fastest": 844,
+   "helper_MBps": 1894
+  },
+  "download_vs_normal": {
+   "best": 0.5938,
+   "avg": 0.5938,
+   "worst": 0.5938
+  },
+  "klauspost_MBps": 2876
+ },
+ {
+  "n": 16,
+  "k": 12,
+  "chunk_bytes": 65536,
+  "isal_MBps": 6479,
+  "isal_avx2_MBps": 3219,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 10281,
+   "rebuild_MBps_avg": 10463,
+   "rebuild_MBps_fastest": 10698,
+   "helper_MBps": 70574
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 4615,
+   "rebuild_MBps_avg": 4749,
+   "rebuild_MBps_fastest": 4905,
+   "helper_MBps": 12825
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 859,
+   "rebuild_MBps_avg": 859,
+   "rebuild_MBps_fastest": 859,
+   "helper_MBps": 1945
+  },
+  "download_vs_normal": {
+   "best": 0.5938,
+   "avg": 0.5938,
+   "worst": 0.5938
+  },
+  "klauspost_MBps": 3808
+ },
+ {
+  "n": 16,
+  "k": 12,
+  "chunk_bytes": 1048576,
+  "isal_MBps": 2223,
+  "isal_avx2_MBps": 2212,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 3588,
+   "rebuild_MBps_avg": 3646,
+   "rebuild_MBps_fastest": 3711,
+   "helper_MBps": 66323
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 3316,
+   "rebuild_MBps_avg": 3416,
+   "rebuild_MBps_fastest": 3473,
+   "helper_MBps": 12705
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 824,
+   "rebuild_MBps_avg": 824,
+   "rebuild_MBps_fastest": 824,
+   "helper_MBps": 1944
+  },
+  "download_vs_normal": {
+   "best": 0.5938,
+   "avg": 0.5938,
+   "worst": 0.5938
+  },
+  "klauspost_MBps": 957
+ },
+ {
+  "n": 16,
+  "k": 12,
+  "chunk_bytes": 16777216,
+  "isal_MBps": 1144,
+  "isal_avx2_MBps": 1131,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 2288,
+   "rebuild_MBps_avg": 2531,
+   "rebuild_MBps_fastest": 3091,
+   "helper_MBps": 16642
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 1902,
+   "rebuild_MBps_avg": 2513,
+   "rebuild_MBps_fastest": 2668,
+   "helper_MBps": 10965
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 706,
+   "rebuild_MBps_avg": 706,
+   "rebuild_MBps_fastest": 706,
+   "helper_MBps": 1816
+  },
+  "download_vs_normal": {
+   "best": 0.5938,
+   "avg": 0.5938,
+   "worst": 0.5938
+  },
+  "klauspost_MBps": 879
+ },
+ {
+  "n": 8,
+  "k": 4,
+  "chunk_bytes": 4096,
+  "isal_MBps": 30518,
+  "isal_avx2_MBps": 9345,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 21945,
+   "rebuild_MBps_avg": 22450,
+   "rebuild_MBps_fastest": 22711,
+   "helper_MBps": 54797
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 6521,
+   "rebuild_MBps_avg": 6571,
+   "rebuild_MBps_fastest": 6610,
+   "helper_MBps": 15953
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1365,
+   "rebuild_MBps_avg": 1365,
+   "rebuild_MBps_fastest": 1365,
+   "helper_MBps": 2312
+  },
+  "download_vs_normal": {
+   "best": 0.5625,
+   "avg": 0.5625,
+   "worst": 0.5625
+  },
+  "klauspost_MBps": 16765
+ },
+ {
+  "n": 8,
+  "k": 4,
+  "chunk_bytes": 65536,
+  "isal_MBps": 23810,
+  "isal_avx2_MBps": 11137,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 23364,
+   "rebuild_MBps_avg": 23814,
+   "rebuild_MBps_fastest": 23965,
+   "helper_MBps": 81274
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 7162,
+   "rebuild_MBps_avg": 7244,
+   "rebuild_MBps_fastest": 7344,
+   "helper_MBps": 17296
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1382,
+   "rebuild_MBps_avg": 1382,
+   "rebuild_MBps_fastest": 1382,
+   "helper_MBps": 2322
+  },
+  "download_vs_normal": {
+   "best": 0.5625,
+   "avg": 0.5625,
+   "worst": 0.5625
+  },
+  "klauspost_MBps": 25521
+ },
+ {
+  "n": 8,
+  "k": 4,
+  "chunk_bytes": 1048576,
+  "isal_MBps": 6262,
+  "isal_avx2_MBps": 6234,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 10084,
+   "rebuild_MBps_avg": 10546,
+   "rebuild_MBps_fastest": 11082,
+   "helper_MBps": 77823
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 6798,
+   "rebuild_MBps_avg": 6963,
+   "rebuild_MBps_fastest": 7108,
+   "helper_MBps": 16602
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1372,
+   "rebuild_MBps_avg": 1372,
+   "rebuild_MBps_fastest": 1372,
+   "helper_MBps": 2301
+  },
+  "download_vs_normal": {
+   "best": 0.5625,
+   "avg": 0.5625,
+   "worst": 0.5625
+  },
+  "klauspost_MBps": 5015
+ },
+ {
+  "n": 8,
+  "k": 4,
+  "chunk_bytes": 16777216,
+  "isal_MBps": 5594,
+  "isal_avx2_MBps": 5539,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 8665,
+   "rebuild_MBps_avg": 8724,
+   "rebuild_MBps_fastest": 8761,
+   "helper_MBps": 21894
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 6305,
+   "rebuild_MBps_avg": 6369,
+   "rebuild_MBps_fastest": 6411,
+   "helper_MBps": 15674
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1304,
+   "rebuild_MBps_avg": 1304,
+   "rebuild_MBps_fastest": 1304,
+   "helper_MBps": 2187
+  },
+  "download_vs_normal": {
+   "best": 0.5625,
+   "avg": 0.5625,
+   "worst": 0.5625
+  },
+  "klauspost_MBps": 4608
+ },
+ {
+  "n": 6,
+  "k": 3,
+  "chunk_bytes": 4096,
+  "isal_MBps": 35837,
+  "isal_avx2_MBps": 11388,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 24881,
+   "rebuild_MBps_avg": 25476,
+   "rebuild_MBps_fastest": 26216,
+   "helper_MBps": 52504
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 6747,
+   "rebuild_MBps_avg": 6835,
+   "rebuild_MBps_fastest": 6938,
+   "helper_MBps": 13911
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1434,
+   "rebuild_MBps_avg": 1434,
+   "rebuild_MBps_fastest": 1434,
+   "helper_MBps": 2105
+  },
+  "download_vs_normal": {
+   "best": 0.6667,
+   "avg": 0.6667,
+   "worst": 0.6667
+  },
+  "klauspost_MBps": 18871
+ },
+ {
+  "n": 6,
+  "k": 3,
+  "chunk_bytes": 65536,
+  "isal_MBps": 29790,
+  "isal_avx2_MBps": 13840,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 25720,
+   "rebuild_MBps_avg": 26811,
+   "rebuild_MBps_fastest": 28077,
+   "helper_MBps": 76668
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 7292,
+   "rebuild_MBps_avg": 7428,
+   "rebuild_MBps_fastest": 7517,
+   "helper_MBps": 14406
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1446,
+   "rebuild_MBps_avg": 1446,
+   "rebuild_MBps_fastest": 1446,
+   "helper_MBps": 2110
+  },
+  "download_vs_normal": {
+   "best": 0.6667,
+   "avg": 0.6667,
+   "worst": 0.6667
+  },
+  "klauspost_MBps": 31439
+ },
+ {
+  "n": 6,
+  "k": 3,
+  "chunk_bytes": 1048576,
+  "isal_MBps": 6821,
+  "isal_avx2_MBps": 6075,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 9101,
+   "rebuild_MBps_avg": 9219,
+   "rebuild_MBps_fastest": 9604,
+   "helper_MBps": 67919
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 7108,
+   "rebuild_MBps_avg": 7146,
+   "rebuild_MBps_fastest": 7202,
+   "helper_MBps": 14572
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1425,
+   "rebuild_MBps_avg": 1425,
+   "rebuild_MBps_fastest": 1425,
+   "helper_MBps": 2111
+  },
+  "download_vs_normal": {
+   "best": 0.6667,
+   "avg": 0.6667,
+   "worst": 0.6667
+  },
+  "klauspost_MBps": 6493
+ },
+ {
+  "n": 6,
+  "k": 3,
+  "chunk_bytes": 16777216,
+  "isal_MBps": 6406,
+  "isal_avx2_MBps": 5766,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 7988,
+   "rebuild_MBps_avg": 8131,
+   "rebuild_MBps_fastest": 8297,
+   "helper_MBps": 18500
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 6220,
+   "rebuild_MBps_avg": 6362,
+   "rebuild_MBps_fastest": 6470,
+   "helper_MBps": 11248
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1340,
+   "rebuild_MBps_avg": 1340,
+   "rebuild_MBps_fastest": 1340,
+   "helper_MBps": 1963
+  },
+  "download_vs_normal": {
+   "best": 0.6667,
+   "avg": 0.6667,
+   "worst": 0.6667
+  },
+  "klauspost_MBps": 5896
+ },
+ {
+  "n": 20,
+  "k": 17,
+  "chunk_bytes": 4096,
+  "isal_MBps": 5373,
+  "isal_avx2_MBps": 2342,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 6565,
+   "rebuild_MBps_avg": 6756,
+   "rebuild_MBps_fastest": 6951,
+   "helper_MBps": 47364
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 3234,
+   "rebuild_MBps_avg": 3281,
+   "rebuild_MBps_fastest": 3350,
+   "helper_MBps": 9615
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 640,
+   "rebuild_MBps_avg": 640,
+   "rebuild_MBps_fastest": 640,
+   "helper_MBps": 1606
+  },
+  "download_vs_normal": {
+   "best": 0.6838,
+   "avg": 0.7426,
+   "worst": 0.7647
+  },
+  "klauspost_MBps": 2295
+ },
+ {
+  "n": 20,
+  "k": 17,
+  "chunk_bytes": 65536,
+  "isal_MBps": 4333,
+  "isal_avx2_MBps": 2194,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 7526,
+   "rebuild_MBps_avg": 7672,
+   "rebuild_MBps_fastest": 7834,
+   "helper_MBps": 65673
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 3504,
+   "rebuild_MBps_avg": 3556,
+   "rebuild_MBps_fastest": 3628,
+   "helper_MBps": 10087
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 645,
+   "rebuild_MBps_avg": 645,
+   "rebuild_MBps_fastest": 645,
+   "helper_MBps": 1614
+  },
+  "download_vs_normal": {
+   "best": 0.6838,
+   "avg": 0.7426,
+   "worst": 0.7647
+  },
+  "klauspost_MBps": 2583
+ },
+ {
+  "n": 20,
+  "k": 17,
+  "chunk_bytes": 1048576,
+  "isal_MBps": 1604,
+  "isal_avx2_MBps": 1555,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 2052,
+   "rebuild_MBps_avg": 2132,
+   "rebuild_MBps_fastest": 2353,
+   "helper_MBps": 52188
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 1977,
+   "rebuild_MBps_avg": 2031,
+   "rebuild_MBps_fastest": 2188,
+   "helper_MBps": 9919
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 605,
+   "rebuild_MBps_avg": 605,
+   "rebuild_MBps_fastest": 605,
+   "helper_MBps": 1571
+  },
+  "download_vs_normal": {
+   "best": 0.6838,
+   "avg": 0.7426,
+   "worst": 0.7647
+  },
+  "klauspost_MBps": 1226
+ },
+ {
+  "n": 20,
+  "k": 17,
+  "chunk_bytes": 16777216,
+  "isal_MBps": 743,
+  "isal_avx2_MBps": 749,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 1071,
+   "rebuild_MBps_avg": 1196,
+   "rebuild_MBps_fastest": 1328,
+   "helper_MBps": 14598
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 979,
+   "rebuild_MBps_avg": 1052,
+   "rebuild_MBps_fastest": 1156,
+   "helper_MBps": 6972
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 512,
+   "rebuild_MBps_avg": 512,
+   "rebuild_MBps_fastest": 512,
+   "helper_MBps": 1475
+  },
+  "download_vs_normal": {
+   "best": 0.6838,
+   "avg": 0.7426,
+   "worst": 0.7647
+  },
+  "klauspost_MBps": 644
+ },
+ {
+  "n": 4,
+  "k": 2,
+  "chunk_bytes": 4096,
+  "isal_MBps": 45422,
+  "isal_avx2_MBps": 15319,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 29819,
+   "rebuild_MBps_avg": 29933,
+   "rebuild_MBps_fastest": 30048,
+   "helper_MBps": 48828
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 7343,
+   "rebuild_MBps_avg": 7343,
+   "rebuild_MBps_fastest": 7343,
+   "helper_MBps": 11695
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1538,
+   "rebuild_MBps_avg": 1538,
+   "rebuild_MBps_fastest": 1538,
+   "helper_MBps": 1877
+  },
+  "download_vs_normal": {
+   "best": 0.75,
+   "avg": 0.75,
+   "worst": 0.75
+  },
+  "klauspost_MBps": 21945
+ },
+ {
+  "n": 4,
+  "k": 2,
+  "chunk_bytes": 65536,
+  "isal_MBps": 39210,
+  "isal_avx2_MBps": 20148,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 32233,
+   "rebuild_MBps_avg": 32346,
+   "rebuild_MBps_fastest": 32434,
+   "helper_MBps": 69214
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 7732,
+   "rebuild_MBps_avg": 7740,
+   "rebuild_MBps_fastest": 7745,
+   "helper_MBps": 12418
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1553,
+   "rebuild_MBps_avg": 1553,
+   "rebuild_MBps_fastest": 1553,
+   "helper_MBps": 1894
+  },
+  "download_vs_normal": {
+   "best": 0.75,
+   "avg": 0.75,
+   "worst": 0.75
+  },
+  "klauspost_MBps": 39911
+ },
+ {
+  "n": 4,
+  "k": 2,
+  "chunk_bytes": 1048576,
+  "isal_MBps": 10090,
+  "isal_avx2_MBps": 9029,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 13272,
+   "rebuild_MBps_avg": 13576,
+   "rebuild_MBps_fastest": 13872,
+   "helper_MBps": 57557
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 7554,
+   "rebuild_MBps_avg": 7571,
+   "rebuild_MBps_fastest": 7602,
+   "helper_MBps": 12018
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1531,
+   "rebuild_MBps_avg": 1531,
+   "rebuild_MBps_fastest": 1531,
+   "helper_MBps": 1895
+  },
+  "download_vs_normal": {
+   "best": 0.75,
+   "avg": 0.75,
+   "worst": 0.75
+  },
+  "klauspost_MBps": 8935
+ },
+ {
+  "n": 4,
+  "k": 2,
+  "chunk_bytes": 16777216,
+  "isal_MBps": 8477,
+  "isal_avx2_MBps": 7683,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 9266,
+   "rebuild_MBps_avg": 9347,
+   "rebuild_MBps_fastest": 9479,
+   "helper_MBps": 17095
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 6781,
+   "rebuild_MBps_avg": 6814,
+   "rebuild_MBps_fastest": 6875,
+   "helper_MBps": 10246
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1439,
+   "rebuild_MBps_avg": 1439,
+   "rebuild_MBps_fastest": 1439,
+   "helper_MBps": 1772
+  },
+  "download_vs_normal": {
+   "best": 0.75,
+   "avg": 0.75,
+   "worst": 0.75
+  },
+  "klauspost_MBps": 7748
+ },
+ {
+  "n": 6,
+  "k": 4,
+  "chunk_bytes": 4096,
+  "isal_MBps": 30518,
+  "isal_avx2_MBps": 9301,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 21581,
+   "rebuild_MBps_avg": 21762,
+   "rebuild_MBps_fastest": 22321,
+   "helper_MBps": 48465
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 6510,
+   "rebuild_MBps_avg": 6565,
+   "rebuild_MBps_fastest": 6689,
+   "helper_MBps": 10991
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1304,
+   "rebuild_MBps_avg": 1304,
+   "rebuild_MBps_fastest": 1304,
+   "helper_MBps": 1714
+  },
+  "download_vs_normal": {
+   "best": 0.75,
+   "avg": 0.75,
+   "worst": 0.75
+  },
+  "klauspost_MBps": 16984
+ },
+ {
+  "n": 6,
+  "k": 4,
+  "chunk_bytes": 65536,
+  "isal_MBps": 23810,
+  "isal_avx2_MBps": 11137,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 21899,
+   "rebuild_MBps_avg": 22313,
+   "rebuild_MBps_fastest": 22986,
+   "helper_MBps": 67685
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 6967,
+   "rebuild_MBps_avg": 7003,
+   "rebuild_MBps_fastest": 7030,
+   "helper_MBps": 11106
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1314,
+   "rebuild_MBps_avg": 1314,
+   "rebuild_MBps_fastest": 1314,
+   "helper_MBps": 1726
+  },
+  "download_vs_normal": {
+   "best": 0.75,
+   "avg": 0.75,
+   "worst": 0.75
+  },
+  "klauspost_MBps": 25469
+ },
+ {
+  "n": 6,
+  "k": 4,
+  "chunk_bytes": 1048576,
+  "isal_MBps": 5429,
+  "isal_avx2_MBps": 4880,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 6599,
+   "rebuild_MBps_avg": 6724,
+   "rebuild_MBps_fastest": 6855,
+   "helper_MBps": 50783
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 5597,
+   "rebuild_MBps_avg": 5715,
+   "rebuild_MBps_fastest": 5860,
+   "helper_MBps": 10930
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1306,
+   "rebuild_MBps_avg": 1306,
+   "rebuild_MBps_fastest": 1306,
+   "helper_MBps": 1726
+  },
+  "download_vs_normal": {
+   "best": 0.75,
+   "avg": 0.75,
+   "worst": 0.75
+  },
+  "klauspost_MBps": 5004
+ },
+ {
+  "n": 6,
+  "k": 4,
+  "chunk_bytes": 16777216,
+  "isal_MBps": 4918,
+  "isal_avx2_MBps": 4330,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 6045,
+   "rebuild_MBps_avg": 6111,
+   "rebuild_MBps_fastest": 6190,
+   "helper_MBps": 15928
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 4768,
+   "rebuild_MBps_avg": 5017,
+   "rebuild_MBps_fastest": 5362,
+   "helper_MBps": 7350
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 1140,
+   "rebuild_MBps_avg": 1140,
+   "rebuild_MBps_fastest": 1140,
+   "helper_MBps": 1399
+  },
+  "download_vs_normal": {
+   "best": 0.75,
+   "avg": 0.75,
+   "worst": 0.75
+  },
+  "klauspost_MBps": 4526
+ },
+ {
+  "n": 10,
+  "k": 8,
+  "chunk_bytes": 4096,
+  "isal_MBps": 16344,
+  "isal_avx2_MBps": 4684,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 11909,
+   "rebuild_MBps_avg": 12342,
+   "rebuild_MBps_fastest": 12850,
+   "helper_MBps": 46565
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 5080,
+   "rebuild_MBps_avg": 5160,
+   "rebuild_MBps_fastest": 5250,
+   "helper_MBps": 9533
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 971,
+   "rebuild_MBps_avg": 971,
+   "rebuild_MBps_fastest": 971,
+   "helper_MBps": 1538
+  },
+  "download_vs_normal": {
+   "best": 0.7188,
+   "avg": 0.75,
+   "worst": 0.7656
+  },
+  "klauspost_MBps": 11355
+ },
+ {
+  "n": 10,
+  "k": 8,
+  "chunk_bytes": 65536,
+  "isal_MBps": 10856,
+  "isal_avx2_MBps": 4745,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 12945,
+   "rebuild_MBps_avg": 13533,
+   "rebuild_MBps_fastest": 13917,
+   "helper_MBps": 62134
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 5363,
+   "rebuild_MBps_avg": 5460,
+   "rebuild_MBps_fastest": 5687,
+   "helper_MBps": 9937
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 982,
+   "rebuild_MBps_avg": 982,
+   "rebuild_MBps_fastest": 982,
+   "helper_MBps": 1544
+  },
+  "download_vs_normal": {
+   "best": 0.7188,
+   "avg": 0.75,
+   "worst": 0.7656
+  },
+  "klauspost_MBps": 14988
+ },
+ {
+  "n": 10,
+  "k": 8,
+  "chunk_bytes": 1048576,
+  "isal_MBps": 3370,
+  "isal_avx2_MBps": 3356,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 4180,
+   "rebuild_MBps_avg": 4353,
+   "rebuild_MBps_fastest": 4604,
+   "helper_MBps": 51317
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 3888,
+   "rebuild_MBps_avg": 4021,
+   "rebuild_MBps_fastest": 4288,
+   "helper_MBps": 10157
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 966,
+   "rebuild_MBps_avg": 966,
+   "rebuild_MBps_fastest": 966,
+   "helper_MBps": 1610
+  },
+  "download_vs_normal": {
+   "best": 0.7188,
+   "avg": 0.75,
+   "worst": 0.7656
+  },
+  "klauspost_MBps": 2762
+ },
+ {
+  "n": 10,
+  "k": 8,
+  "chunk_bytes": 16777216,
+  "isal_MBps": 2367,
+  "isal_avx2_MBps": 2274,
+  "avx512+gfni": {
+   "rebuild_MBps_slowest": 2934,
+   "rebuild_MBps_avg": 3388,
+   "rebuild_MBps_fastest": 3715,
+   "helper_MBps": 16338
+  },
+  "avx2": {
+   "rebuild_MBps_slowest": 2408,
+   "rebuild_MBps_avg": 2490,
+   "rebuild_MBps_fastest": 2631,
+   "helper_MBps": 6678
+  },
+  "portable": {
+   "rebuild_MBps_slowest": 818,
+   "rebuild_MBps_avg": 818,
+   "rebuild_MBps_fastest": 818,
+   "helper_MBps": 1440
+  },
+  "download_vs_normal": {
+   "best": 0.7188,
+   "avg": 0.75,
+   "worst": 0.7656
+  },
+  "klauspost_MBps": 1971
+ }
+]
