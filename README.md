@@ -261,7 +261,9 @@ See the [proof and exact profiles](RS6_2_POINTSET_GAP.md) and run `python3 -B ch
 * Bandwidth only: every helper still reads its whole byte, and all n−1 survivors take part (classical repair needs k).
 * Compute cost: the thesis reports a C implementation of trace repair on top of ISA-L that is 1.8–2.8 times slower than
   ISA-L's own repair (its Table 5.4), argues that the network saving can outweigh this, and leaves a test inside a
-  storage system (Hadoop) as future work. Nothing here changes that picture.
+  storage system (Hadoop) as future work. The library in [`lib/`](lib/) closes that gap for the rebuild step on the one
+  machine it was measured on (its README says where ISA-L is still faster, and what the n−1 helpers spend); a test
+  inside a storage system is still future work.
 * The trace-repair framework (Guruswami–Wootters), the subspace idea and shortening are prior work.
 * The 3-bit criterion is a short duality argument, given above as a sketch and confirmed by exhaustive computation for
   GF(256), four parities, 16 points. It has not been refereed. The literature check looked for schemes below 4 bits per
