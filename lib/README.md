@@ -44,6 +44,11 @@ In short, on the eleven codes above:
 - **More disk reads.** All n−1 surviving nodes read their whole chunk, where normal repair reads k chunks. For
   RS(14,10) that is 13 chunks read instead of 10, to send 6.2 chunks' worth instead of 10. It pays off where the
   network, or a cap on repair traffic, is the limit, and not where disk reads are.
+- **More CPU in total, though little.** Normal repair does all its arithmetic on the rebuilding node. Here each of the
+  n−1 helpers also makes one pass over its chunk. Summed over all nodes (rebuild time plus n−1 helper times from the
+  table below), the coding arithmetic costs 1.1–1.4× the CPU of normal repair at 1 MiB chunks, 1.5–2.5× at 16 MiB,
+  1.8–3.1× at 64 KiB and 3–5× at 4 KiB. In absolute terms that is between 0.07 and 2.1 ms of CPU per MiB rebuilt.
+  The CPU spent on disk and network I/O is not measured.
 - **Every surviving chunk must be reachable.** If a second node is down or slow, fall back to normal repair.
 - **One lost chunk at a time.** Helpers must be told which chunk is lost.
 - **Codes covered**: n−k of 2, 3 or 4 with n ≤ 16, plus RS(20,17); 37 codes (`./rsr info`). Two families: chunk i
